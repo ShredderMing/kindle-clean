@@ -1,0 +1,19 @@
+{
+  "name": "kindle-clean",
+  "version": "0.0.1",
+  "description": "A command-line tool for cleanning Kindle.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShredderMing/kindle-clean"
+  },
+  "bin": {
+    "kindle-clean": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.12.2",
+    "fs-extra": "^4.0.2",
+    "yesno": "^0.0.1"
+  }
+}
