@@ -271,8 +271,8 @@ colors@~1.1.2:
   resolved "http://registry.npm.taobao.org/colors/download/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
 
 commander@^2.12.2:
-  version "2.12.2"
-  resolved "http://registry.npm.taobao.org/commander/download/commander-2.12.2.tgz#0f5946c427ed9ec0d91a46bb9def53e54650e555"
+  version "2.14.1"
+  resolved "http://registry.npm.taobao.org/commander/download/commander-2.14.1.tgz#2235123e37af8ca3c65df45b026dbd357b01b9aa"
 
 commander@~2.13.0:
   version "2.13.0"
@@ -504,8 +504,8 @@ for-own@^0.1.4:
     for-in "^1.0.1"
 
 fs-extra@^4.0.2:
-  version "4.0.2"
-  resolved "http://registry.npm.taobao.org/fs-extra/download/fs-extra-4.0.2.tgz#f91704c53d1b461f893452b0c307d9997647ab6b"
+  version "4.0.3"
+  resolved "http://registry.npm.taobao.org/fs-extra/download/fs-extra-4.0.3.tgz#0d852122e5bc5beb453fb028e9c0c9bf36340c94"
   dependencies:
     graceful-fs "^4.1.2"
     jsonfile "^4.0.0"
