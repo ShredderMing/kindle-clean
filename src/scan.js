@@ -1,5 +1,5 @@
-var fs = require('fs');
-var path = require('path');
+const fs = require('fs');
+const path = require('path');
 
 const walk = dir =>
   fs
@@ -46,4 +46,4 @@ const scan = dir => ({
   children: walk(dir)
 });
 
-module.exports = scan;
+export default scan;

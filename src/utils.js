@@ -10,4 +10,4 @@ const groupBy = fn => list => {
 const differenceBy = fn => (lst1, lst2) =>
   lst1.filter(m => lst2.findIndex(n => fn(m) === fn(n)) === -1);
 
-module.exports = { groupBy, differenceBy };
+export { groupBy, differenceBy };

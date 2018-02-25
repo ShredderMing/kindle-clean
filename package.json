@@ -1,6 +1,6 @@
 {
   "name": "kindle-clean",
-  "version": "0.0.2",
+  "version": "0.0.2-test",
   "description": "A command-line tool for cleanning Kindle.",
   "main": "dist/kindle-clean.js",
   "source": "src/index.js",
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/ShredderMing/kindle-clean"
   },
-  "scripts": { "build": "microbundle -f cjs" },
+  "scripts": { "build": "microbundle -f cjs --sourcemap false" },
   "bin": {
     "kindle-clean": "dist/kindle-clean.js"
   },

@@ -4,8 +4,8 @@ const fs = require('fs-extra');
 const path = require('path');
 const program = require('commander');
 const yesno = require('yesno');
-const scan = require('./scan');
-const { groupBy, differenceBy } = require('./utils');
+import scan from './scan.js';
+import { groupBy, differenceBy } from './utils.js';
 
 const pkg = require(path.join(__dirname, 'package.json'));
 
